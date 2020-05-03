@@ -8,7 +8,8 @@
   "module": "index.js",
   "scripts": {
     "test": "wtr test/**/*.test.js",
-    "test:watch": "wtr test/**/*.test.js --watch"
+    "test:watch": "wtr test/**/*.test.js --watch",
+    "test:browser": "wtr test/**/*.test.js --browser --watch"
   },
   "dependencies": {
     "lit-html": "^1.1.2",
@@ -17,6 +18,6 @@
   "devDependencies": {
     "@bundled-es-modules/chai": "^4.2.2",
     "@open-wc/testing-helpers": "^1.8.2",
-    "web-test-runner": "0.0.1"
+    "web-test-runner": "^0.0.3"
   }
 }
