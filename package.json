@@ -1,0 +1,22 @@
+{
+  "name": "wtr-example",
+  "version": "0.0.0",
+  "description": "Project using web test runner",
+  "author": "wtr-example",
+  "license": "MIT",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "test": "wtr test/**/*.test.js",
+    "test:watch": "wtr test/**/*.test.js --watch"
+  },
+  "dependencies": {
+    "lit-html": "^1.1.2",
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@bundled-es-modules/chai": "^4.2.2",
+    "@open-wc/testing-helpers": "^1.8.2",
+    "web-test-runner": "0.0.1"
+  }
+}
