@@ -18,6 +18,6 @@
   "devDependencies": {
     "@bundled-es-modules/chai": "^4.2.2",
     "@open-wc/testing-helpers": "^1.8.2",
-    "web-test-runner": "^0.0.9"
+    "web-test-runner": "^0.0.17"
   }
 }
