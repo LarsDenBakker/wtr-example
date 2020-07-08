@@ -7,18 +7,19 @@
   "main": "index.js",
   "module": "index.js",
   "scripts": {
-    "test": "wtr test/**/*.test.js",
-    "test:playwright": "wtr test/**/*.test.js --playwright --browsers chromium firefox webkit",
-    "test:watch": "wtr test/**/*.test.js --watch"
+    "test": "wtr test/**/*.test.js --node-resolve",
+    "test:playwright": "wtr test/**/*.test.js --node-resolve --playwright --browsers chromium firefox webkit",
+    "test:watch": "wtr test/**/*.test.js --node-resolve --watch"
   },
   "dependencies": {
-    "lit-html": "^1.1.2",
-    "lit-element": "^2.2.1"
+    "@web/dev-server-rollup": "^0.1.0",
+    "debounce": "^1.2.0",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2"
   },
   "devDependencies": {
     "@bundled-es-modules/chai": "^4.2.2",
     "@open-wc/testing-helpers": "^1.8.2",
-    "@web/dev-server-esbuild": "0.0.3",
-    "@web/test-runner": "^0.5.18"
+    "@web/test-runner": "^0.6.0"
   }
 }
